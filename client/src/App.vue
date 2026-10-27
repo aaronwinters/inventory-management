@@ -183,7 +183,7 @@ export default {
       { to: '/orders', label: t('nav.orders'), icon: icons.orders },
       { to: '/spending', label: t('nav.finance'), icon: icons.finance },
       { to: '/demand', label: t('nav.demandForecast'), icon: icons.demand },
-      { to: '/reports', label: 'Reports', icon: icons.reports }
+      { to: '/reports', label: t('nav.reports'), icon: icons.reports }
     ])
 
     const brandInitial = computed(() => (t('nav.companyName') || '').trim().charAt(0).toUpperCase())
